@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestGit.Models
 {
-    internal class Users
+    internal class User
     {
+        public int UserName { get; set; }
+        public int Email { get; set; }
     }
 }
