@@ -8,7 +8,6 @@ namespace TestGit.Models
 {
     internal class User
     {
-        public int UserName { get; set; }
         public int Email { get; set; }
     }
 }
